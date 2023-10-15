@@ -1,13 +1,13 @@
-def add(a, b):
+def Num(a, b):
     return a + b
 
-def subtract(a, b):
+def subtractNum(a, b):
     return a - b
 
-def multiply(a, b):
+def multiplyNum(a, b):
     return a * b
 
-def divide(a, b):
+def divideNum(a, b):
     if b == 0:
         return "Cannot divide by zero"
     else:
